@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    max-width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+    background-color: var(--main-color-900);
+}
+
+:root{
+    --main-color-100: #E5E5E5;
+    --main-color-900: rgb(17, 17, 17);
+}
