@@ -4,13 +4,17 @@ header {
 }
 
 main {
-    max-width: 800px;
+    width: 100%;
     margin: 0;
     background-color: white;
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    margin: 10px 0;
 }
 
 .create-list {
@@ -46,6 +50,7 @@ ul.lists {
 }
 
 .lists li {
+    width: 100%;
     margin-bottom: 10px;
     background-color: #f1f1f1;
     padding: 10px;
@@ -55,9 +60,15 @@ ul.lists {
 }
 
 .list_form {
+    width: 100%;
     margin: 0 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.list_div {
+    display: flex;
 }
 
 .list_check {
@@ -78,5 +89,3 @@ ul.lists {
     margin-left: 5px;
     
 }
-
-/* 기존 스타일 종료 */
