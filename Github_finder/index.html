@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GitHub Finder</title>
+    <link rel="stylesheet" href="http://bootswatch.com/4/litera/bootstrap.min.css">
+    <script defer scr="GitHub"></script>
+    <script defer src="ui.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a class="navbar=brand" style="color: white;">GitHub Finder</a>
+        </div>
+    </nav>
+    
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <h1>Search Github Users</h1>
+            <p class="lead">Enter a username to fetch a user profile and repos</p>
+            <input type="text" id="searchUser" placeholder="Github Username...">
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center bg-light">
+        Github Finder
+    </footer>
+</body>
+</html>
