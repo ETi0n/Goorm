@@ -1,5 +1,3 @@
-package ShoppingBasket;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -160,7 +158,7 @@ public class shoppingBasket {
             String line;
             while((line = br.readLine()) != null){
                 Product product = Product.importCSV(line);
-                productSet.add(product
+                productSet.add(product);
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
